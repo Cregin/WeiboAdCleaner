@@ -33,8 +33,8 @@ the generation of a class list and an automatic constructor.
 %end
 */
 
-// @interface WBNewUserGuideCardView: UIView 
-// @end
+@interface WBNewUserGuideCardView: UIView 
+@end
 
 %hook HomeViewController
 
@@ -48,9 +48,9 @@ the generation of a class list and an automatic constructor.
 	NSLog(@"didTriggerPullShowAD called");
 }
 
-// - (void)newUserGuideCardViewDidReceiveCard:(WBNewUserGuideCardView *)arg1 {
-// 	NSLog(@"newUserGuideCardViewDidReceiveCard called");
-// }
+- (void)newUserGuideCardViewDidReceiveCard:(WBNewUserGuideCardView *)arg1 {
+	NSLog(@"newUserGuideCardViewDidReceiveCard called");
+}
 
 - (void)scrollViewDidEndDraggingAndShowRedEnvelope {
 	NSLog(@"scrollViewDidEndDraggingAndShowRedEnvelope called");
