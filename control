@@ -1,0 +1,9 @@
+Package: com.ygezihuzi.weiboadCleanerr
+Name: weiboADCleaner
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: clean weibo ads!
+Maintainer: Chen
+Author: Chen
+Section: Tweaks

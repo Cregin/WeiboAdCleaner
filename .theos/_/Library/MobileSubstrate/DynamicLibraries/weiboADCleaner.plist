@@ -1,0 +1,10 @@
+{
+	Filter = {
+		Classes = (
+			HomeViewController,
+		);
+		Bundles = (
+			"com.sina.weibo",
+		);
+	};
+}
